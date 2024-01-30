@@ -1,0 +1,130 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 23px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.equi img {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+.equi {
+    position: relative;
+}
+.overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 75%);
+}
+
+
+.info h2 {
+  color: white;
+  padding-top: 20px;
+}
+
+.info p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.info h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.eth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.eth-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.eth-price img {
+  height: 20px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.eth-price p {
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.countdown img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+  border: 0.5px solid;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+span {
+  color: white;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
